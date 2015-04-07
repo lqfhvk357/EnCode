@@ -21,8 +21,8 @@
     [super viewDidLoad];
     LCPerson *p1=[[LCPerson alloc] init];
     p1.age=100;
-    p1.sex=@"maniiiqwrdffewssssss";
-    p1.name=@"luoiiewrwregwesssssi";
+    p1.sex=@"maniii";
+    p1.name=@"luoiii";
     
     NSString *path=[[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject]stringByAppendingPathComponent:@"mydatss"];
     NSMutableData *myData=[NSMutableData data];
