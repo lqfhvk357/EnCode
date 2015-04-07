@@ -22,7 +22,7 @@
     LCPerson *p1=[[LCPerson alloc] init];
     p1.age=100;
     p1.sex=@"man";
-    p1.name=@"luo";
+    p1.name=@"luochao";
     
     NSString *path=[[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject]stringByAppendingPathComponent:@"mydatss"];
     NSMutableData *myData=[NSMutableData data];
